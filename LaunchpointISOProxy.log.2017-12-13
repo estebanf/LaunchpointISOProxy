@@ -1,0 +1,749 @@
+[2017-12-13T17:40:04.109] [INFO] LaunchpointISOProxy - Message received
+[2017-12-13T17:40:04.388] [INFO] LaunchpointISOProxy - Message posted and replied
+[2017-12-13T17:40:19.485] [INFO] LaunchpointISOProxy - Message received
+[2017-12-13T17:40:19.727] [INFO] LaunchpointISOProxy - Message posted and replied
+[2017-12-13T17:40:41.858] [INFO] LaunchpointISOProxy - Message received
+[2017-12-13T17:40:41.859] [DEBUG] LaunchpointISOProxy - <ClaimInvestigationAddRs>
+  <RqUID>1111</RqUID>
+  <TransactionResponseDt>2017-09-22T10:47:57</TransactionResponseDt>
+  <CurCd>US</CurCd>
+  <CodeList id="AdditionalMatchCdList">
+    <CodeListName>AdditionalMatchCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="ADSResponseCdList">
+    <CodeListName>ADSResponseCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="AirbagStatusCdList">
+    <CodeListName>AirbagStatusCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="AntiTheftDeviceCdList">
+    <CodeListName>AntiTheftDeviceCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="AppraiserActivityCdList">
+    <CodeListName>AppraiserActivityCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>ß
+  </CodeList>
+  <CodeList id="BenefitTypeCdList">
+    <CodeListName>BenefitTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="BodyPartCdList">
+    <CodeListName>BodyPartCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="CatastropheCdList">
+    <CodeListName>CatastropheCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="ClaimsPartyRoleCdList">
+    <CodeListName>ClaimsPartyRoleCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="ClaimStatusCdList">
+    <CodeListName>ClaimStatusCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="CoverageCdList">
+    <CodeListName>CoverageCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="CPT_CodeList">
+    <CodeListName>CPT_Code</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="DriverRelationshipToOwnerCdList">
+    <CodeListName>DriverRelationshipToOwnerCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="EDRIndList">
+    <CodeListName>EDRInd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="EmploymentStatusCdList">
+    <CodeListName>EmploymentStatusCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="EventCdList">
+    <CodeListName>EventCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="HullMaterialTypeCdList">
+    <CodeListName>HullMaterialTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="ICDDiagnosticCdList">
+    <CodeListName>ICDDiagnosticCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="KeyReasonCdList">
+    <CodeListName>KeyReasonCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="LicensePlateTypeCdList">
+    <CodeListName>LicensePlateTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="LossTypeCdList">
+    <CodeListName>LossTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="MatchReasonCdList">
+    <CodeListName>MatchReasonCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="MatchReportTypeCdList">
+    <CodeListName>MatchReportTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="MsgErrorCdList">
+    <CodeListName>MsgErrorCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="MsgStatusCdList">
+    <CodeListName>MsgStatusCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="OccupancyTypeCdList">
+    <CodeListName>OccupancyTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="PaymentTypeCdList">
+    <CodeListName>PaymentTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="PointOfImpactCdList">
+    <CodeListName>PointOfImpactCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="PolicyTypeCdList">
+    <CodeListName>PolicyTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="PropulsionTypeCdList">
+    <CodeListName>PropulsionTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="RealEstateTypeCdList">
+    <CodeListName>RealEstateTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="RecoveryClassificationCdList">
+    <CodeListName>RecoveryClassificationCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="RecoveryConditionCdList">
+    <CodeListName>RecoveryConditionCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="RecoveryStatusCdList">
+    <CodeListName>RecoveryStatusCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="SearchableElementCdList">
+    <CodeListName>SearchableElementCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="SearchBasisCdList">
+    <CodeListName>SearchBasisCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="SSNValidationCdList">
+    <CodeListName>SSNValidationCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="SubjectInsuranceCdList">
+    <CodeListName>SubjectInsuranceCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="SumReasonCdList">
+    <CodeListName>SumReasonCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="TaxIdTypeCdList">
+    <CodeListName>TaxIdTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="TheftLocationCdList">
+    <CodeListName>TheftLocationCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="TINValidationList">
+    <CodeListName>TINValidation</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="TortThresholdTypeCdList">
+    <CodeListName>TortThresholdTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="VehColorCdList">
+    <CodeListName>VehColorCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="VehDispositionCdList">
+    <CodeListName>VehDispositionCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="VehStyleCdList">
+    <CodeListName>VehStyleCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="VehTypeCdList">
+    <CodeListName>VehTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <CodeList id="WaterUnitTypeCdList">
+    <CodeListName>WaterUnitTypeCd</CodeListName>
+    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+  </CodeList>
+  <MsgStatus>
+    <MsgStatusCd>Success</MsgStatusCd>
+  </MsgStatus>
+  <Policy>
+    <PolicyNumber>000011111</PolicyNumber>
+    <LOBCd codelistref="PolicyTypeCdList">ACHE</LOBCd>
+    <MiscParty id="MiscParty-01">
+      <ItemIdInfo>
+        <AgencyId>D11100001</AgencyId>
+      </ItemIdInfo>
+      <MiscPartyInfo>
+        <MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+      </MiscPartyInfo>
+    </MiscParty>
+  </Policy>
+  <ClaimsOccurrence id="ClaimsOccurence_1">
+    <ItemIdInfo>
+      <AgencyId>1F001111111</AgencyId>
+      <InsurerId>1111</InsurerId>
+    </ItemIdInfo>
+    <LossDt>2016-01-01</LossDt>
+    <LossTime>00:00</LossTime>
+    <IncidentDesc>UNKNOWN</IncidentDesc>
+    <Addr>
+      <Addr1>1111 RD APT 111</Addr1>
+      <City>MADISON</City>
+      <StateProvCd>WI</StateProvCd>
+      <PostalCode>53719</PostalCode>
+      <CountryCd>US</CountryCd>
+    </Addr>
+    <com.iso_ReceiveDt>2017-01-01</com.iso_ReceiveDt>
+  </ClaimsOccurrence>
+  <ClaimsParty id="IP_1">
+    <GeneralPartyInfo>
+      <NameInfo>
+        <PersonName>
+          <Surname>DOE</Surname>
+          <GivenName>JOHN</GivenName>
+        </PersonName>
+      </NameInfo>
+      <Addr>
+        <Addr1>1111 RD APT 111</Addr1>
+        <City>MADISON</City>
+        <StateProvCd>WI</StateProvCd>
+        <PostalCode>53719</PostalCode>
+        <CountryCd>US</CountryCd>
+      </Addr>
+      <Communications>
+        <PhoneInfo>
+          <PhoneTypeCd>Phone</PhoneTypeCd>
+          <CommunicationUseCd>Home</CommunicationUseCd>
+          <PhoneNumber id="IP_1_HomePhone">+1-111-1111111</PhoneNumber>
+        </PhoneInfo>
+      </Communications>
+    </GeneralPartyInfo>
+    <PersonInfo>
+      <GenderCd>F</GenderCd>
+      <BirthDt>1965-01-01</BirthDt>
+    </PersonInfo>
+    <ClaimsPartyInfo>
+      <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">IN</ClaimsPartyRoleCd>
+    </ClaimsPartyInfo>
+    <ClaimsInjuredInfo id="IP_1ClaimsInjury_1">
+      <ClaimsInjury>
+        <InjuryNatureDesc>INJURYNATUREDESC</InjuryNatureDesc>
+      </ClaimsInjury>
+    </ClaimsInjuredInfo>
+  </ClaimsParty>
+  <AdjusterParty>
+    <GeneralPartyInfo>
+      <NameInfo>
+        <CommlName>
+          <CommercialName>DISCOVERY HEALTH PARTNERS</CommercialName>
+        </CommlName>
+      </NameInfo>
+    </GeneralPartyInfo>
+    <AdjusterPartyInfo AssignmentRef="IP_1ClaimsInjury_1">
+      <CoverageCd codelistref="CoverageCdList">DISB</CoverageCd>
+      <LossCauseCd codelistref="LossTypeCdList">DISB</LossCauseCd>
+    </AdjusterPartyInfo>
+  </AdjusterParty>
+  <ClaimsPayment idref="IP_1ClaimsInjury_1" ClaimsPartyRef="IP_1">
+    <ClaimsPaymentCovInfo>
+      <CoverageCd codelistref="CoverageCdList">DISB</CoverageCd>
+    </ClaimsPaymentCovInfo>
+  </ClaimsPayment>
+  <MatchReportTypeCd codelistref="MatchReportTypeCdList">S</MatchReportTypeCd>
+  <com.iso_ClaimsScoringInfo>
+    <com.iso_ClaimDirectorScore>000</com.iso_ClaimDirectorScore>
+    <com.iso_EmailSentInd>N</com.iso_EmailSentInd>
+    <com.iso_NumberTimesScored>00</com.iso_NumberTimesScored>
+  </com.iso_ClaimsScoringInfo>
+  <MatchDetails>
+    <Policy>
+      <PolicyNumber>AUT011111111</PolicyNumber>
+      <LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+      <MiscParty id="MD_1MiscParty_1">
+        <GeneralPartyInfo>
+          <NameInfo>
+            <CommlName>
+              <CommercialName>CLUB ASSOC</CommercialName>
+            </CommlName>
+          </NameInfo>
+          <Addr>
+            <Addr1>2222 RD</Addr1>
+            <City>SOUTHFIELD</City>
+            <StateProvCd>MI</StateProvCd>
+            <PostalCode>48034</PostalCode>
+          </Addr>
+          <Communications>
+            <PhoneInfo>
+              <PhoneNumber>+1-111-1111111</PhoneNumber>
+            </PhoneInfo>
+          </Communications>
+        </GeneralPartyInfo>
+        <MiscPartyInfo>
+          <MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+        </MiscPartyInfo>
+      </MiscParty>
+    </Policy>
+    <ClaimsOccurrence id="MD_1ClaimsOccurence_1">
+      <ItemIdInfo>
+        <AgencyId>1L111111111</AgencyId>
+        <InsurerId>111111111</InsurerId>
+      </ItemIdInfo>
+      <LossDt>2016-01-01</LossDt>
+      <IncidentDesc>MV</IncidentDesc>
+      <Addr>
+        <Addr1>1ST STREET</Addr1>
+        <City>MADISON</City>
+        <StateProvCd>WI</StateProvCd>
+      </Addr>
+    </ClaimsOccurrence>
+    <ClaimsParty id="MD_2">
+      <GeneralPartyInfo>
+        <NameInfo>
+          <PersonName>
+            <Surname>DOE2</Surname>
+            <GivenName>JOHN2</GivenName>
+          </PersonName>
+        </NameInfo>
+        <Addr>
+          <Addr1>1111 ST.</Addr1>
+          <City>FITCHBURG</City>
+          <StateProvCd>WI</StateProvCd>
+          <PostalCode>53711</PostalCode>
+        </Addr>
+      </GeneralPartyInfo>
+      <PersonInfo>
+        <GenderCd>F</GenderCd>
+        <BirthDt>1957-01-01</BirthDt>
+      </PersonInfo>
+      <ClaimsPartyInfo>
+        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">IN</ClaimsPartyRoleCd>
+      </ClaimsPartyInfo>
+    </ClaimsParty>
+    <ClaimsParty id="MD_2">
+      <GeneralPartyInfo>
+        <NameInfo>
+          <PersonName>
+            <Surname>DOE3</Surname>
+            <GivenName>JOHN3</GivenName>
+          </PersonName>
+        </NameInfo>
+        <Addr>
+          <Addr1>1111 RD</Addr1>
+          <City>MADISON</City>
+          <StateProvCd>WI</StateProvCd>
+          <PostalCode>53719</PostalCode>
+        </Addr>
+        <Communications>
+          <PhoneInfo>
+            <PhoneTypeCd>Phone</PhoneTypeCd>
+            <CommunicationUseCd>Home</CommunicationUseCd>
+            <PhoneNumber id="MD_2_HomePhone">+1-111-1111111</PhoneNumber>
+          </PhoneInfo>
+        </Communications>
+      </GeneralPartyInfo>
+      <PersonInfo>
+        <GenderCd>F</GenderCd>
+        <BirthDt>1945-01-01</BirthDt>
+      </PersonInfo>
+      <ClaimsPartyInfo>
+        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+      </ClaimsPartyInfo>
+      <ClaimsInjuredInfo id="MD_2ClaimsInjury_1">
+        <ClaimsInjury>
+          <InjuryNatureDesc>SOFT TISSUE NECK &amp; BACK</InjuryNatureDesc>
+        </ClaimsInjury>
+      </ClaimsInjuredInfo>
+    </ClaimsParty>
+    <ClaimsParty id="MD_3">
+      <GeneralPartyInfo>
+        <NameInfo>
+          <PersonName>
+            <Surname>DOE4</Surname>
+            <GivenName>JOHN4</GivenName>
+          </PersonName>
+        </NameInfo>
+        <Addr>
+          <Addr1>2222 ST.</Addr1>
+          <City>FITCHBURG</City>
+          <StateProvCd>WI</StateProvCd>
+          <PostalCode>53711</PostalCode>
+        </Addr>
+      </GeneralPartyInfo>
+      <PersonInfo>
+        <GenderCd>M</GenderCd>
+        <BirthDt>1958-01-01</BirthDt>
+      </PersonInfo>
+      <ClaimsPartyInfo>
+        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">ID</ClaimsPartyRoleCd>
+      </ClaimsPartyInfo>
+    </ClaimsParty>
+    <AdjusterParty>
+      <GeneralPartyInfo>
+        <NameInfo>
+          <CommlName>
+            <CommercialName>CLUB ASSOC</CommercialName>
+          </CommlName>
+        </NameInfo>
+        <NameInfo>
+          <PersonName>
+            <Surname>DOE5</Surname>
+            <GivenName>JOHN5</GivenName>
+          </PersonName>
+        </NameInfo>
+      </GeneralPartyInfo>
+      <AdjusterPartyInfo AssignmentRef="MD_2ClaimsInjury_1">
+        <CoverageCd codelistref="CoverageCdList">BODI</CoverageCd>
+        <LossCauseCd codelistref="LossTypeCdList">BODI</LossCauseCd>
+      </AdjusterPartyInfo>
+    </AdjusterParty>
+    <ClaimsPayment idref="MD_2ClaimsInjury_1" ClaimsPartyRef="MD_2">
+      <ClaimsPaymentCovInfo>
+        <CoverageCd codelistref="CoverageCdList">BODI</CoverageCd>
+        <ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>
+      </ClaimsPaymentCovInfo>
+    </ClaimsPayment>
+    <MatchReasonInfo ClaimsPartyRef="IP_1">
+      <MatchReasonCd>P</MatchReasonCd>
+      <MatchReasonCd>N</MatchReasonCd>
+      <MatchReasonCd>A</MatchReasonCd>
+    </MatchReasonInfo>
+    <com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+      <com.iso_SumIdentifier>1L111111111</com.iso_SumIdentifier>
+      <com.iso_TotalLossType>00</com.iso_TotalLossType>
+      <com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+      <com.iso_TotalName>01</com.iso_TotalName>
+      <com.iso_TotalAddress>01</com.iso_TotalAddress>
+      <com.iso_TotalSSN>00</com.iso_TotalSSN>
+      <com.iso_TotalPhone>01</com.iso_TotalPhone>
+      <com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+      <com.iso_TotalVIN>00</com.iso_TotalVIN>
+      <com.iso_TotalLicPlate>00</com.iso_TotalLicPlate>
+      <com.iso_SumReasonCd>N</com.iso_SumReasonCd>
+      <com.iso_SumReasonCd>A</com.iso_SumReasonCd>
+      <com.iso_SumReasonCd>P</com.iso_SumReasonCd>
+    </com.iso_SumReasonInfo>
+  </MatchDetails>
+  <com.iso_KeyReasonInfo ClaimsPartyRef="IP_1">
+    <com.iso_KeyReasonCd>03</com.iso_KeyReasonCd>
+  </com.iso_KeyReasonInfo>
+</ClaimInvestigationAddRs>
+
+[2017-12-13T17:40:42.120] [INFO] LaunchpointISOProxy - Message posted and replied
+[2017-12-13T17:41:18.338] [INFO] LaunchpointISOProxy - Message received
+[2017-12-13T17:41:18.487] [ERROR] LaunchpointISOProxy - { StatusCodeError: 401 - ""
+    at new StatusCodeError (/Users/estebanf/development/LaunchpointISOProxy/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Users/estebanf/development/LaunchpointISOProxy/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Users/estebanf/development/LaunchpointISOProxy/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Users/estebanf/development/LaunchpointISOProxy/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/estebanf/development/LaunchpointISOProxy/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/estebanf/development/LaunchpointISOProxy/node_modules/request/request.js:1085:12)
+    at IncomingMessage.g (events.js:292:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'StatusCodeError',
+  statusCode: 401,
+  message: '401 - ""',
+  error: '',
+  options: 
+   { url: 'http://54.90.107.154:8080/everteam/ode/processes/LaunchPointProcess_Processes_Core_ProcessISOResponse_ISO_Response_Manager_ISO',
+     method: 'POST',
+     headers: { 'Content-Type': 'application/xml' },
+     body: 'XX<iso:Receive_ISO_ResponseRequest xmlns:iso="http://bpms.everteam.com/Processes/Core/ProcessISOResponse/ISO_Response_Manager" xmlns:laun="http://www.example.org/Launchpoint"><laun:content><ClaimInvestigationAddRs>\r\n  <RqUID>1111</RqUID>\r\n  <TransactionResponseDt>2017-09-22T10:47:57</TransactionResponseDt>\r\n  <CurCd>US</CurCd>\r\n  <CodeList id="AdditionalMatchCdList">\r\n    <CodeListName>AdditionalMatchCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ADSResponseCdList">\r\n    <CodeListName>ADSResponseCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="AirbagStatusCdList">\r\n    <CodeListName>AirbagStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="AntiTheftDeviceCdList">\r\n    <CodeListName>AntiTheftDeviceCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="AppraiserActivityCdList">\r\n    <CodeListName>AppraiserActivityCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>ß\r\n  </CodeList>\r\n  <CodeList id="BenefitTypeCdList">\r\n    <CodeListName>BenefitTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="BodyPartCdList">\r\n    <CodeListName>BodyPartCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="CatastropheCdList">\r\n    <CodeListName>CatastropheCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ClaimsPartyRoleCdList">\r\n    <CodeListName>ClaimsPartyRoleCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ClaimStatusCdList">\r\n    <CodeListName>ClaimStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="CoverageCdList">\r\n    <CodeListName>CoverageCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="CPT_CodeList">\r\n    <CodeListName>CPT_Code</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="DriverRelationshipToOwnerCdList">\r\n    <CodeListName>DriverRelationshipToOwnerCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="EDRIndList">\r\n    <CodeListName>EDRInd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="EmploymentStatusCdList">\r\n    <CodeListName>EmploymentStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="EventCdList">\r\n    <CodeListName>EventCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="HullMaterialTypeCdList">\r\n    <CodeListName>HullMaterialTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ICDDiagnosticCdList">\r\n    <CodeListName>ICDDiagnosticCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="KeyReasonCdList">\r\n    <CodeListName>KeyReasonCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="LicensePlateTypeCdList">\r\n    <CodeListName>LicensePlateTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="LossTypeCdList">\r\n    <CodeListName>LossTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MatchReasonCdList">\r\n    <CodeListName>MatchReasonCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MatchReportTypeCdList">\r\n    <CodeListName>MatchReportTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MsgErrorCdList">\r\n    <CodeListName>MsgErrorCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MsgStatusCdList">\r\n    <CodeListName>MsgStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="OccupancyTypeCdList">\r\n    <CodeListName>OccupancyTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PaymentTypeCdList">\r\n    <CodeListName>PaymentTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PointOfImpactCdList">\r\n    <CodeListName>PointOfImpactCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PolicyTypeCdList">\r\n    <CodeListName>PolicyTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PropulsionTypeCdList">\r\n    <CodeListName>PropulsionTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RealEstateTypeCdList">\r\n    <CodeListName>RealEstateTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RecoveryClassificationCdList">\r\n    <CodeListName>RecoveryClassificationCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RecoveryConditionCdList">\r\n    <CodeListName>RecoveryConditionCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RecoveryStatusCdList">\r\n    <CodeListName>RecoveryStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SearchableElementCdList">\r\n    <CodeListName>SearchableElementCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SearchBasisCdList">\r\n    <CodeListName>SearchBasisCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SSNValidationCdList">\r\n    <CodeListName>SSNValidationCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SubjectInsuranceCdList">\r\n    <CodeListName>SubjectInsuranceCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SumReasonCdList">\r\n    <CodeListName>SumReasonCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TaxIdTypeCdList">\r\n    <CodeListName>TaxIdTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TheftLocationCdList">\r\n    <CodeListName>TheftLocationCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TINValidationList">\r\n    <CodeListName>TINValidation</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TortThresholdTypeCdList">\r\n    <CodeListName>TortThresholdTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehColorCdList">\r\n    <CodeListName>VehColorCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehDispositionCdList">\r\n    <CodeListName>VehDispositionCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehStyleCdList">\r\n    <CodeListName>VehStyleCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehTypeCdList">\r\n    <CodeListName>VehTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="WaterUnitTypeCdList">\r\n    <CodeListName>WaterUnitTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <MsgStatus>\r\n    <MsgStatusCd>Success</MsgStatusCd>\r\n  </MsgStatus>\r\n  <Policy>\r\n    <PolicyNumber>000011111</PolicyNumber>\r\n    <LOBCd codelistref="PolicyTypeCdList">ACHE</LOBCd>\r\n    <MiscParty id="MiscParty-01">\r\n      <ItemIdInfo>\r\n        <AgencyId>D11100001</AgencyId>\r\n      </ItemIdInfo>\r\n      <MiscPartyInfo>\r\n        <MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>\r\n      </MiscPartyInfo>\r\n    </MiscParty>\r\n  </Policy>\r\n  <ClaimsOccurrence id="ClaimsOccurence_1">\r\n    <ItemIdInfo>\r\n      <AgencyId>1F001111111</AgencyId>\r\n      <InsurerId>1111</InsurerId>\r\n    </ItemIdInfo>\r\n    <LossDt>2016-01-01</LossDt>\r\n    <LossTime>00:00</LossTime>\r\n    <IncidentDesc>UNKNOWN</IncidentDesc>\r\n    <Addr>\r\n      <Addr1>1111 RD APT 111</Addr1>\r\n      <City>MADISON</City>\r\n      <StateProvCd>WI</StateProvCd>\r\n      <PostalCode>53719</PostalCode>\r\n      <CountryCd>US</CountryCd>\r\n    </Addr>\r\n    <com.iso_ReceiveDt>2017-01-01</com.iso_ReceiveDt>\r\n  </ClaimsOccurrence>\r\n  <ClaimsParty id="IP_1">\r\n    <GeneralPartyInfo>\r\n      <NameInfo>\r\n        <PersonName>\r\n          <Surname>DOE</Surname>\r\n          <GivenName>JOHN</GivenName>\r\n        </PersonName>\r\n      </NameInfo>\r\n      <Addr>\r\n        <Addr1>1111 RD APT 111</Addr1>\r\n        <City>MADISON</City>\r\n        <StateProvCd>WI</StateProvCd>\r\n        <PostalCode>53719</PostalCode>\r\n        <CountryCd>US</CountryCd>\r\n      </Addr>\r\n      <Communications>\r\n        <PhoneInfo>\r\n          <PhoneTypeCd>Phone</PhoneTypeCd>\r\n          <CommunicationUseCd>Home</CommunicationUseCd>\r\n          <PhoneNumber id="IP_1_HomePhone">+1-111-1111111</PhoneNumber>\r\n        </PhoneInfo>\r\n      </Communications>\r\n    </GeneralPartyInfo>\r\n    <PersonInfo>\r\n      <GenderCd>F</GenderCd>\r\n      <BirthDt>1965-01-01</BirthDt>\r\n    </PersonInfo>\r\n    <ClaimsPartyInfo>\r\n      <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">IN</ClaimsPartyRoleCd>\r\n    </ClaimsPartyInfo>\r\n    <ClaimsInjuredInfo id="IP_1ClaimsInjury_1">\r\n      <ClaimsInjury>\r\n        <InjuryNatureDesc>INJURYNATUREDESC</InjuryNatureDesc>\r\n      </ClaimsInjury>\r\n    </ClaimsInjuredInfo>\r\n  </ClaimsParty>\r\n  <AdjusterParty>\r\n    <GeneralPartyInfo>\r\n      <NameInfo>\r\n        <CommlName>\r\n          <CommercialName>DISCOVERY HEALTH PARTNERS</CommercialName>\r\n        </CommlName>\r\n      </NameInfo>\r\n    </GeneralPartyInfo>\r\n    <AdjusterPartyInfo AssignmentRef="IP_1ClaimsInjury_1">\r\n      <CoverageCd codelistref="CoverageCdList">DISB</CoverageCd>\r\n      <LossCauseCd codelistref="LossTypeCdList">DISB</LossCauseCd>\r\n    </AdjusterPartyInfo>\r\n  </AdjusterParty>\r\n  <ClaimsPayment idref="IP_1ClaimsInjury_1" ClaimsPartyRef="IP_1">\r\n    <ClaimsPaymentCovInfo>\r\n      <CoverageCd codelistref="CoverageCdList">DISB</CoverageCd>\r\n    </ClaimsPaymentCovInfo>\r\n  </ClaimsPayment>\r\n  <MatchReportTypeCd codelistref="MatchReportTypeCdList">S</MatchReportTypeCd>\r\n  <com.iso_ClaimsScoringInfo>\r\n    <com.iso_ClaimDirectorScore>000</com.iso_ClaimDirectorScore>\r\n    <com.iso_EmailSentInd>N</com.iso_EmailSentInd>\r\n    <com.iso_NumberTimesScored>00</com.iso_NumberTimesScored>\r\n  </com.iso_ClaimsScoringInfo>\r\n  <MatchDetails>\r\n    <Policy>\r\n      <PolicyNumber>AUT011111111</PolicyNumber>\r\n      <LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>\r\n      <MiscParty id="MD_1MiscParty_1">\r\n        <GeneralPartyInfo>\r\n          <NameInfo>\r\n            <CommlName>\r\n              <CommercialName>CLUB ASSOC</CommercialName>\r\n            </CommlName>\r\n          </NameInfo>\r\n          <Addr>\r\n            <Addr1>2222 RD</Addr1>\r\n            <City>SOUTHFIELD</City>\r\n            <StateProvCd>MI</StateProvCd>\r\n            <PostalCode>48034</PostalCode>\r\n          </Addr>\r\n          <Communications>\r\n            <PhoneInfo>\r\n              <PhoneNumber>+1-111-1111111</PhoneNumber>\r\n            </PhoneInfo>\r\n          </Communications>\r\n        </GeneralPartyInfo>\r\n        <MiscPartyInfo>\r\n          <MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>\r\n        </MiscPartyInfo>\r\n      </MiscParty>\r\n    </Policy>\r\n    <ClaimsOccurrence id="MD_1ClaimsOccurence_1">\r\n      <ItemIdInfo>\r\n        <AgencyId>1L111111111</AgencyId>\r\n        <InsurerId>111111111</InsurerId>\r\n      </ItemIdInfo>\r\n      <LossDt>2016-01-01</LossDt>\r\n      <IncidentDesc>MV</IncidentDesc>\r\n      <Addr>\r\n        <Addr1>1ST STREET</Addr1>\r\n        <City>MADISON</City>\r\n        <StateProvCd>WI</StateProvCd>\r\n      </Addr>\r\n    </ClaimsOccurrence>\r\n    <ClaimsParty id="MD_2">\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE2</Surname>\r\n            <GivenName>JOHN2</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n        <Addr>\r\n          <Addr1>1111 ST.</Addr1>\r\n          <City>FITCHBURG</City>\r\n          <StateProvCd>WI</StateProvCd>\r\n          <PostalCode>53711</PostalCode>\r\n        </Addr>\r\n      </GeneralPartyInfo>\r\n      <PersonInfo>\r\n        <GenderCd>F</GenderCd>\r\n        <BirthDt>1957-01-01</BirthDt>\r\n      </PersonInfo>\r\n      <ClaimsPartyInfo>\r\n        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">IN</ClaimsPartyRoleCd>\r\n      </ClaimsPartyInfo>\r\n    </ClaimsParty>\r\n    <ClaimsParty id="MD_2">\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE3</Surname>\r\n            <GivenName>JOHN3</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n        <Addr>\r\n          <Addr1>1111 RD</Addr1>\r\n          <City>MADISON</City>\r\n          <StateProvCd>WI</StateProvCd>\r\n          <PostalCode>53719</PostalCode>\r\n        </Addr>\r\n        <Communications>\r\n          <PhoneInfo>\r\n            <PhoneTypeCd>Phone</PhoneTypeCd>\r\n            <CommunicationUseCd>Home</CommunicationUseCd>\r\n            <PhoneNumber id="MD_2_HomePhone">+1-111-1111111</PhoneNumber>\r\n          </PhoneInfo>\r\n        </Communications>\r\n      </GeneralPartyInfo>\r\n      <PersonInfo>\r\n        <GenderCd>F</GenderCd>\r\n        <BirthDt>1945-01-01</BirthDt>\r\n      </PersonInfo>\r\n      <ClaimsPartyInfo>\r\n        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>\r\n      </ClaimsPartyInfo>\r\n      <ClaimsInjuredInfo id="MD_2ClaimsInjury_1">\r\n        <ClaimsInjury>\r\n          <InjuryNatureDesc>SOFT TISSUE NECK &amp; BACK</InjuryNatureDesc>\r\n        </ClaimsInjury>\r\n      </ClaimsInjuredInfo>\r\n    </ClaimsParty>\r\n    <ClaimsParty id="MD_3">\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE4</Surname>\r\n            <GivenName>JOHN4</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n        <Addr>\r\n          <Addr1>2222 ST.</Addr1>\r\n          <City>FITCHBURG</City>\r\n          <StateProvCd>WI</StateProvCd>\r\n          <PostalCode>53711</PostalCode>\r\n        </Addr>\r\n      </GeneralPartyInfo>\r\n      <PersonInfo>\r\n        <GenderCd>M</GenderCd>\r\n        <BirthDt>1958-01-01</BirthDt>\r\n      </PersonInfo>\r\n      <ClaimsPartyInfo>\r\n        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">ID</ClaimsPartyRoleCd>\r\n      </ClaimsPartyInfo>\r\n    </ClaimsParty>\r\n    <AdjusterParty>\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <CommlName>\r\n            <CommercialName>CLUB ASSOC</CommercialName>\r\n          </CommlName>\r\n        </NameInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE5</Surname>\r\n            <GivenName>JOHN5</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n      </GeneralPartyInfo>\r\n      <AdjusterPartyInfo AssignmentRef="MD_2ClaimsInjury_1">\r\n        <CoverageCd codelistref="CoverageCdList">BODI</CoverageCd>\r\n        <LossCauseCd codelistref="LossTypeCdList">BODI</LossCauseCd>\r\n      </AdjusterPartyInfo>\r\n    </AdjusterParty>\r\n    <ClaimsPayment idref="MD_2ClaimsInjury_1" ClaimsPartyRef="MD_2">\r\n      <ClaimsPaymentCovInfo>\r\n        <CoverageCd codelistref="CoverageCdList">BODI</CoverageCd>\r\n        <ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>\r\n      </ClaimsPaymentCovInfo>\r\n    </ClaimsPayment>\r\n    <MatchReasonInfo ClaimsPartyRef="IP_1">\r\n      <MatchReasonCd>P</MatchReasonCd>\r\n      <MatchReasonCd>N</MatchReasonCd>\r\n      <MatchReasonCd>A</MatchReasonCd>\r\n    </MatchReasonInfo>\r\n    <com.iso_SumReasonInfo ClaimsPartyRef="IP_1">\r\n      <com.iso_SumIdentifier>1L111111111</com.iso_SumIdentifier>\r\n      <com.iso_TotalLossType>00</com.iso_TotalLossType>\r\n      <com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>\r\n      <com.iso_TotalName>01</com.iso_TotalName>\r\n      <com.iso_TotalAddress>01</com.iso_TotalAddress>\r\n      <com.iso_TotalSSN>00</com.iso_TotalSSN>\r\n      <com.iso_TotalPhone>01</com.iso_TotalPhone>\r\n      <com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>\r\n      <com.iso_TotalVIN>00</com.iso_TotalVIN>\r\n      <com.iso_TotalLicPlate>00</com.iso_TotalLicPlate>\r\n      <com.iso_SumReasonCd>N</com.iso_SumReasonCd>\r\n      <com.iso_SumReasonCd>A</com.iso_SumReasonCd>\r\n      <com.iso_SumReasonCd>P</com.iso_SumReasonCd>\r\n    </com.iso_SumReasonInfo>\r\n  </MatchDetails>\r\n  <com.iso_KeyReasonInfo ClaimsPartyRef="IP_1">\r\n    <com.iso_KeyReasonCd>03</com.iso_KeyReasonCd>\r\n  </com.iso_KeyReasonInfo>\r\n</ClaimInvestigationAddRs>\r\n</laun:content></iso:Receive_ISO_ResponseRequest>',
+     callback: [Function: RP$callback],
+     transform: undefined,
+     simple: true,
+     resolveWithFullResponse: false,
+     transform2xxOnly: false },
+  response: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        close: [Object],
+        data: [Function],
+        error: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 16846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 16846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { server: 'Apache-Coyote/1.1',
+        'content-length': '0',
+        date: 'Wed, 13 Dec 2017 23:41:18 GMT',
+        connection: 'close' },
+     rawHeaders: 
+      [ 'Server',
+        'Apache-Coyote/1.1',
+        'Content-Length',
+        '0',
+        'Date',
+        'Wed, 13 Dec 2017 23:41:18 GMT',
+        'Connection',
+        'close' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '',
+     method: null,
+     statusCode: 401,
+     statusMessage: 'Unauthorized',
+     client: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 16846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     _consuming: true,
+     _dumped: false,
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _removedHeader: [Object],
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'POST /everteam/ode/processes/LaunchPointProcess_Processes_Core_ProcessISOResponse_ISO_Response_Manager_ISO HTTP/1.1\r\nContent-Type: application/xml\r\nhost: 54.90.107.154:8080\r\ncontent-length: 16628\r\nConnection: close\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'POST',
+        path: '/everteam/ode/processes/LaunchPointProcess_Processes_Core_ProcessISOResponse_ISO_Response_Manager_ISO',
+        _ended: true,
+        parser: null,
+        res: [Circular] },
+     request: 
+      Request {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        method: 'POST',
+        headers: [Object],
+        body: 'XX<iso:Receive_ISO_ResponseRequest xmlns:iso="http://bpms.everteam.com/Processes/Core/ProcessISOResponse/ISO_Response_Manager" xmlns:laun="http://www.example.org/Launchpoint"><laun:content><ClaimInvestigationAddRs>\r\n  <RqUID>1111</RqUID>\r\n  <TransactionResponseDt>2017-09-22T10:47:57</TransactionResponseDt>\r\n  <CurCd>US</CurCd>\r\n  <CodeList id="AdditionalMatchCdList">\r\n    <CodeListName>AdditionalMatchCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ADSResponseCdList">\r\n    <CodeListName>ADSResponseCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="AirbagStatusCdList">\r\n    <CodeListName>AirbagStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="AntiTheftDeviceCdList">\r\n    <CodeListName>AntiTheftDeviceCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="AppraiserActivityCdList">\r\n    <CodeListName>AppraiserActivityCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>ß\r\n  </CodeList>\r\n  <CodeList id="BenefitTypeCdList">\r\n    <CodeListName>BenefitTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="BodyPartCdList">\r\n    <CodeListName>BodyPartCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="CatastropheCdList">\r\n    <CodeListName>CatastropheCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ClaimsPartyRoleCdList">\r\n    <CodeListName>ClaimsPartyRoleCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ClaimStatusCdList">\r\n    <CodeListName>ClaimStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="CoverageCdList">\r\n    <CodeListName>CoverageCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="CPT_CodeList">\r\n    <CodeListName>CPT_Code</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="DriverRelationshipToOwnerCdList">\r\n    <CodeListName>DriverRelationshipToOwnerCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="EDRIndList">\r\n    <CodeListName>EDRInd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="EmploymentStatusCdList">\r\n    <CodeListName>EmploymentStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="EventCdList">\r\n    <CodeListName>EventCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="HullMaterialTypeCdList">\r\n    <CodeListName>HullMaterialTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="ICDDiagnosticCdList">\r\n    <CodeListName>ICDDiagnosticCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="KeyReasonCdList">\r\n    <CodeListName>KeyReasonCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="LicensePlateTypeCdList">\r\n    <CodeListName>LicensePlateTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="LossTypeCdList">\r\n    <CodeListName>LossTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MatchReasonCdList">\r\n    <CodeListName>MatchReasonCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MatchReportTypeCdList">\r\n    <CodeListName>MatchReportTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MsgErrorCdList">\r\n    <CodeListName>MsgErrorCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="MsgStatusCdList">\r\n    <CodeListName>MsgStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="OccupancyTypeCdList">\r\n    <CodeListName>OccupancyTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PaymentTypeCdList">\r\n    <CodeListName>PaymentTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PointOfImpactCdList">\r\n    <CodeListName>PointOfImpactCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PolicyTypeCdList">\r\n    <CodeListName>PolicyTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="PropulsionTypeCdList">\r\n    <CodeListName>PropulsionTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RealEstateTypeCdList">\r\n    <CodeListName>RealEstateTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RecoveryClassificationCdList">\r\n    <CodeListName>RecoveryClassificationCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RecoveryConditionCdList">\r\n    <CodeListName>RecoveryConditionCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="RecoveryStatusCdList">\r\n    <CodeListName>RecoveryStatusCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SearchableElementCdList">\r\n    <CodeListName>SearchableElementCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SearchBasisCdList">\r\n    <CodeListName>SearchBasisCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SSNValidationCdList">\r\n    <CodeListName>SSNValidationCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SubjectInsuranceCdList">\r\n    <CodeListName>SubjectInsuranceCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="SumReasonCdList">\r\n    <CodeListName>SumReasonCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TaxIdTypeCdList">\r\n    <CodeListName>TaxIdTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TheftLocationCdList">\r\n    <CodeListName>TheftLocationCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TINValidationList">\r\n    <CodeListName>TINValidation</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="TortThresholdTypeCdList">\r\n    <CodeListName>TortThresholdTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehColorCdList">\r\n    <CodeListName>VehColorCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehDispositionCdList">\r\n    <CodeListName>VehDispositionCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehStyleCdList">\r\n    <CodeListName>VehStyleCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="VehTypeCdList">\r\n    <CodeListName>VehTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <CodeList id="WaterUnitTypeCdList">\r\n    <CodeListName>WaterUnitTypeCd</CodeListName>\r\n    <CodeListOwnerCd>ISOUS</CodeListOwnerCd>\r\n  </CodeList>\r\n  <MsgStatus>\r\n    <MsgStatusCd>Success</MsgStatusCd>\r\n  </MsgStatus>\r\n  <Policy>\r\n    <PolicyNumber>000011111</PolicyNumber>\r\n    <LOBCd codelistref="PolicyTypeCdList">ACHE</LOBCd>\r\n    <MiscParty id="MiscParty-01">\r\n      <ItemIdInfo>\r\n        <AgencyId>D11100001</AgencyId>\r\n      </ItemIdInfo>\r\n      <MiscPartyInfo>\r\n        <MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>\r\n      </MiscPartyInfo>\r\n    </MiscParty>\r\n  </Policy>\r\n  <ClaimsOccurrence id="ClaimsOccurence_1">\r\n    <ItemIdInfo>\r\n      <AgencyId>1F001111111</AgencyId>\r\n      <InsurerId>1111</InsurerId>\r\n    </ItemIdInfo>\r\n    <LossDt>2016-01-01</LossDt>\r\n    <LossTime>00:00</LossTime>\r\n    <IncidentDesc>UNKNOWN</IncidentDesc>\r\n    <Addr>\r\n      <Addr1>1111 RD APT 111</Addr1>\r\n      <City>MADISON</City>\r\n      <StateProvCd>WI</StateProvCd>\r\n      <PostalCode>53719</PostalCode>\r\n      <CountryCd>US</CountryCd>\r\n    </Addr>\r\n    <com.iso_ReceiveDt>2017-01-01</com.iso_ReceiveDt>\r\n  </ClaimsOccurrence>\r\n  <ClaimsParty id="IP_1">\r\n    <GeneralPartyInfo>\r\n      <NameInfo>\r\n        <PersonName>\r\n          <Surname>DOE</Surname>\r\n          <GivenName>JOHN</GivenName>\r\n        </PersonName>\r\n      </NameInfo>\r\n      <Addr>\r\n        <Addr1>1111 RD APT 111</Addr1>\r\n        <City>MADISON</City>\r\n        <StateProvCd>WI</StateProvCd>\r\n        <PostalCode>53719</PostalCode>\r\n        <CountryCd>US</CountryCd>\r\n      </Addr>\r\n      <Communications>\r\n        <PhoneInfo>\r\n          <PhoneTypeCd>Phone</PhoneTypeCd>\r\n          <CommunicationUseCd>Home</CommunicationUseCd>\r\n          <PhoneNumber id="IP_1_HomePhone">+1-111-1111111</PhoneNumber>\r\n        </PhoneInfo>\r\n      </Communications>\r\n    </GeneralPartyInfo>\r\n    <PersonInfo>\r\n      <GenderCd>F</GenderCd>\r\n      <BirthDt>1965-01-01</BirthDt>\r\n    </PersonInfo>\r\n    <ClaimsPartyInfo>\r\n      <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">IN</ClaimsPartyRoleCd>\r\n    </ClaimsPartyInfo>\r\n    <ClaimsInjuredInfo id="IP_1ClaimsInjury_1">\r\n      <ClaimsInjury>\r\n        <InjuryNatureDesc>INJURYNATUREDESC</InjuryNatureDesc>\r\n      </ClaimsInjury>\r\n    </ClaimsInjuredInfo>\r\n  </ClaimsParty>\r\n  <AdjusterParty>\r\n    <GeneralPartyInfo>\r\n      <NameInfo>\r\n        <CommlName>\r\n          <CommercialName>DISCOVERY HEALTH PARTNERS</CommercialName>\r\n        </CommlName>\r\n      </NameInfo>\r\n    </GeneralPartyInfo>\r\n    <AdjusterPartyInfo AssignmentRef="IP_1ClaimsInjury_1">\r\n      <CoverageCd codelistref="CoverageCdList">DISB</CoverageCd>\r\n      <LossCauseCd codelistref="LossTypeCdList">DISB</LossCauseCd>\r\n    </AdjusterPartyInfo>\r\n  </AdjusterParty>\r\n  <ClaimsPayment idref="IP_1ClaimsInjury_1" ClaimsPartyRef="IP_1">\r\n    <ClaimsPaymentCovInfo>\r\n      <CoverageCd codelistref="CoverageCdList">DISB</CoverageCd>\r\n    </ClaimsPaymentCovInfo>\r\n  </ClaimsPayment>\r\n  <MatchReportTypeCd codelistref="MatchReportTypeCdList">S</MatchReportTypeCd>\r\n  <com.iso_ClaimsScoringInfo>\r\n    <com.iso_ClaimDirectorScore>000</com.iso_ClaimDirectorScore>\r\n    <com.iso_EmailSentInd>N</com.iso_EmailSentInd>\r\n    <com.iso_NumberTimesScored>00</com.iso_NumberTimesScored>\r\n  </com.iso_ClaimsScoringInfo>\r\n  <MatchDetails>\r\n    <Policy>\r\n      <PolicyNumber>AUT011111111</PolicyNumber>\r\n      <LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>\r\n      <MiscParty id="MD_1MiscParty_1">\r\n        <GeneralPartyInfo>\r\n          <NameInfo>\r\n            <CommlName>\r\n              <CommercialName>CLUB ASSOC</CommercialName>\r\n            </CommlName>\r\n          </NameInfo>\r\n          <Addr>\r\n            <Addr1>2222 RD</Addr1>\r\n            <City>SOUTHFIELD</City>\r\n            <StateProvCd>MI</StateProvCd>\r\n            <PostalCode>48034</PostalCode>\r\n          </Addr>\r\n          <Communications>\r\n            <PhoneInfo>\r\n              <PhoneNumber>+1-111-1111111</PhoneNumber>\r\n            </PhoneInfo>\r\n          </Communications>\r\n        </GeneralPartyInfo>\r\n        <MiscPartyInfo>\r\n          <MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>\r\n        </MiscPartyInfo>\r\n      </MiscParty>\r\n    </Policy>\r\n    <ClaimsOccurrence id="MD_1ClaimsOccurence_1">\r\n      <ItemIdInfo>\r\n        <AgencyId>1L111111111</AgencyId>\r\n        <InsurerId>111111111</InsurerId>\r\n      </ItemIdInfo>\r\n      <LossDt>2016-01-01</LossDt>\r\n      <IncidentDesc>MV</IncidentDesc>\r\n      <Addr>\r\n        <Addr1>1ST STREET</Addr1>\r\n        <City>MADISON</City>\r\n        <StateProvCd>WI</StateProvCd>\r\n      </Addr>\r\n    </ClaimsOccurrence>\r\n    <ClaimsParty id="MD_2">\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE2</Surname>\r\n            <GivenName>JOHN2</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n        <Addr>\r\n          <Addr1>1111 ST.</Addr1>\r\n          <City>FITCHBURG</City>\r\n          <StateProvCd>WI</StateProvCd>\r\n          <PostalCode>53711</PostalCode>\r\n        </Addr>\r\n      </GeneralPartyInfo>\r\n      <PersonInfo>\r\n        <GenderCd>F</GenderCd>\r\n        <BirthDt>1957-01-01</BirthDt>\r\n      </PersonInfo>\r\n      <ClaimsPartyInfo>\r\n        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">IN</ClaimsPartyRoleCd>\r\n      </ClaimsPartyInfo>\r\n    </ClaimsParty>\r\n    <ClaimsParty id="MD_2">\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE3</Surname>\r\n            <GivenName>JOHN3</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n        <Addr>\r\n          <Addr1>1111 RD</Addr1>\r\n          <City>MADISON</City>\r\n          <StateProvCd>WI</StateProvCd>\r\n          <PostalCode>53719</PostalCode>\r\n        </Addr>\r\n        <Communications>\r\n          <PhoneInfo>\r\n            <PhoneTypeCd>Phone</PhoneTypeCd>\r\n            <CommunicationUseCd>Home</CommunicationUseCd>\r\n            <PhoneNumber id="MD_2_HomePhone">+1-111-1111111</PhoneNumber>\r\n          </PhoneInfo>\r\n        </Communications>\r\n      </GeneralPartyInfo>\r\n      <PersonInfo>\r\n        <GenderCd>F</GenderCd>\r\n        <BirthDt>1945-01-01</BirthDt>\r\n      </PersonInfo>\r\n      <ClaimsPartyInfo>\r\n        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>\r\n      </ClaimsPartyInfo>\r\n      <ClaimsInjuredInfo id="MD_2ClaimsInjury_1">\r\n        <ClaimsInjury>\r\n          <InjuryNatureDesc>SOFT TISSUE NECK &amp; BACK</InjuryNatureDesc>\r\n        </ClaimsInjury>\r\n      </ClaimsInjuredInfo>\r\n    </ClaimsParty>\r\n    <ClaimsParty id="MD_3">\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE4</Surname>\r\n            <GivenName>JOHN4</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n        <Addr>\r\n          <Addr1>2222 ST.</Addr1>\r\n          <City>FITCHBURG</City>\r\n          <StateProvCd>WI</StateProvCd>\r\n          <PostalCode>53711</PostalCode>\r\n        </Addr>\r\n      </GeneralPartyInfo>\r\n      <PersonInfo>\r\n        <GenderCd>M</GenderCd>\r\n        <BirthDt>1958-01-01</BirthDt>\r\n      </PersonInfo>\r\n      <ClaimsPartyInfo>\r\n        <ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">ID</ClaimsPartyRoleCd>\r\n      </ClaimsPartyInfo>\r\n    </ClaimsParty>\r\n    <AdjusterParty>\r\n      <GeneralPartyInfo>\r\n        <NameInfo>\r\n          <CommlName>\r\n            <CommercialName>CLUB ASSOC</CommercialName>\r\n          </CommlName>\r\n        </NameInfo>\r\n        <NameInfo>\r\n          <PersonName>\r\n            <Surname>DOE5</Surname>\r\n            <GivenName>JOHN5</GivenName>\r\n          </PersonName>\r\n        </NameInfo>\r\n      </GeneralPartyInfo>\r\n      <AdjusterPartyInfo AssignmentRef="MD_2ClaimsInjury_1">\r\n        <CoverageCd codelistref="CoverageCdList">BODI</CoverageCd>\r\n        <LossCauseCd codelistref="LossTypeCdList">BODI</LossCauseCd>\r\n      </AdjusterPartyInfo>\r\n    </AdjusterParty>\r\n    <ClaimsPayment idref="MD_2ClaimsInjury_1" ClaimsPartyRef="MD_2">\r\n      <ClaimsPaymentCovInfo>\r\n        <CoverageCd codelistref="CoverageCdList">BODI</CoverageCd>\r\n        <ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>\r\n      </ClaimsPaymentCovInfo>\r\n    </ClaimsPayment>\r\n    <MatchReasonInfo ClaimsPartyRef="IP_1">\r\n      <MatchReasonCd>P</MatchReasonCd>\r\n      <MatchReasonCd>N</MatchReasonCd>\r\n      <MatchReasonCd>A</MatchReasonCd>\r\n    </MatchReasonInfo>\r\n    <com.iso_SumReasonInfo ClaimsPartyRef="IP_1">\r\n      <com.iso_SumIdentifier>1L111111111</com.iso_SumIdentifier>\r\n      <com.iso_TotalLossType>00</com.iso_TotalLossType>\r\n      <com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>\r\n      <com.iso_TotalName>01</com.iso_TotalName>\r\n      <com.iso_TotalAddress>01</com.iso_TotalAddress>\r\n      <com.iso_TotalSSN>00</com.iso_TotalSSN>\r\n      <com.iso_TotalPhone>01</com.iso_TotalPhone>\r\n      <com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>\r\n      <com.iso_TotalVIN>00</com.iso_TotalVIN>\r\n      <com.iso_TotalLicPlate>00</com.iso_TotalLicPlate>\r\n      <com.iso_SumReasonCd>N</com.iso_SumReasonCd>\r\n      <com.iso_SumReasonCd>A</com.iso_SumReasonCd>\r\n      <com.iso_SumReasonCd>P</com.iso_SumReasonCd>\r\n    </com.iso_SumReasonInfo>\r\n  </MatchDetails>\r\n  <com.iso_KeyReasonInfo ClaimsPartyRef="IP_1">\r\n    <com.iso_KeyReasonCd>03</com.iso_KeyReasonCd>\r\n  </com.iso_KeyReasonInfo>\r\n</ClaimInvestigationAddRs>\r\n</laun:content></iso:Receive_ISO_ResponseRequest>',
+        readable: true,
+        writable: true,
+        explicitMethod: true,
+        _qs: [Object],
+        _auth: [Object],
+        _oauth: [Object],
+        _multipart: [Object],
+        _redirect: [Object],
+        _tunnel: [Object],
+        _rp_resolve: [Function],
+        _rp_reject: [Function],
+        _rp_promise: [Object],
+        _rp_callbackOrig: undefined,
+        callback: [Function],
+        _rp_options: [Object],
+        setHeader: [Function],
+        hasHeader: [Function],
+        getHeader: [Function],
+        removeHeader: [Function],
+        localAddress: undefined,
+        pool: {},
+        dests: [],
+        __isRequestRequest: true,
+        _callback: [Function: RP$callback],
+        uri: [Object],
+        proxy: null,
+        tunnel: false,
+        setHost: true,
+        originalCookieHeader: undefined,
+        _disableCookies: true,
+        _jar: undefined,
+        port: '8080',
+        host: '54.90.107.154',
+        path: '/everteam/ode/processes/LaunchPointProcess_Processes_Core_ProcessISOResponse_ISO_Response_Manager_ISO',
+        httpModule: [Object],
+        agentClass: [Object],
+        agent: [Object],
+        _started: true,
+        href: 'http://54.90.107.154:8080/everteam/ode/processes/LaunchPointProcess_Processes_Core_ProcessISOResponse_ISO_Response_Manager_ISO',
+        req: [Object],
+        ntick: true,
+        response: [Circular],
+        originalHost: '54.90.107.154:8080',
+        originalHostHeaderName: 'host',
+        responseContent: [Circular],
+        _ended: true,
+        _callbackCalled: true },
+     toJSON: [Function: responseToJSON],
+     caseless: Caseless { dict: [Object] },
+     read: [Function],
+     body: '' } }
+[2017-12-13T17:43:23.400] [INFO] LaunchpointISOProxy - Message received
+[2017-12-13T17:43:23.671] [INFO] LaunchpointISOProxy - Message posted and replied

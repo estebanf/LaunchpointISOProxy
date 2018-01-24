@@ -7,10 +7,10 @@ logger.level = config.logLevel;
 
 module.exports = function(app){
   app.post('/isoresponse',(req,res) => {
-    logger.info("Message received");
+    logger.info("ISOResponse received ");
     res.setHeader("Content-Type", "application/xml");
     var content = req.rawBody;
-    logger.debug(content);
+    // logger.debug(content);
     var msg = "<iso:Receive_ISO_ResponseRequest xmlns:iso=\"http://bpms.everteam.com/Processes/Core/ProcessISOResponse/ISO_Response_Manager\" xmlns:laun=\"http://www.example.org/Launchpoint\"><laun:content>" + content + "</laun:content></iso:Receive_ISO_ResponseRequest>";
     request({
       url: config.bpms,

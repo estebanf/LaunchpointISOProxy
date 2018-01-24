@@ -1,9 +1,35 @@
-var response = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\"><soapenv:Header/><soapenv:Body><tem:SubmitToISOResponse><tem:SubmitToISOResult>?</tem:SubmitToISOResult><ACORD><Status><StatusCd>0</StatusCd><StatusDesc>Success</StatusDesc></Status><SignonRs><Status><StatusCd>0</StatusCd><StatusDesc>Signon was successful</StatusDesc></Status><CustId><SPName>LP</SPName><CustLoginId>11111</CustLoginId></CustId><ClientDt>2017-09-21T16:21:53</ClientDt><CustLangPref>enUS</CustLangPref><ClientApp><Org>DHP</Org><Name>XML_UAT</Name><Version>1</Version></ClientApp><ServerDt>2017-09-21T12:22:02.384-04:00</ServerDt><Language>en-US</Language></SignonRs><ClaimsSvcRs><Status><StatusCd>0</StatusCd></Status><RqUID>1111111</RqUID><ClaimInvestigationAddRs><RqUID>1111111</RqUID><TransactionResponseDt/><CurCd>en-US</CurCd><MsgStatus><MsgStatusCd>ResponsePending</MsgStatusCd></MsgStatus></ClaimInvestigationAddRs></ClaimsSvcRs></ACORD></tem:SubmitToISOResponse></soapenv:Body></soapenv:Envelope>"
+var config = require('./config');
+var request = require('request-promise');
+// require('request-debug')(request);
+var log4js = require('log4js');
+var logger = log4js.getLogger('LaunchpointISOProxy');
+logger.level = config.logLevel;
 
 module.exports = function(app){
   app.post('/isorequest',(req,res) => {
-    console.log(req.rawBody);
-    res.setHeader("Content-Type", "application/xml");
-    res.send(response);
+    logger.info("ISORequest received ");
+    res.setHeader("Content-Type", "text/xml");
+
+    var content = req.rawBody;
+    content = content.replace("<tem:xml>","<tem:xml><![CDATA[");
+    content = content.replace("</tem:xml>","]]></tem:xml>")
+    request({
+      url: config.ISO,
+      method:'POST',
+      headers:{
+        'Content-Type':'text/xml;charset=UTF-8',
+        SOAPAction: "http://tempuri.org/SubmitToISO"
+      },
+      body: content
+    })
+    .then((resp,data) => {
+        logger.info("Message posted and replied")
+        res.send(resp);
+    })
+    .catch((err) => {
+      logger.error(err.error);
+      res.status(500).send(err.error);
+    })
+    // res.send(content);
   })
 }
