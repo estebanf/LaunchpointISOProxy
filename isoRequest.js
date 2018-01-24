@@ -11,8 +11,8 @@ module.exports = function(app){
     res.setHeader("Content-Type", "text/xml");
 
     var content = req.rawBody;
-    content = content.replace("<tem:xml>","<tem:xml><![CDATA[");
-    content = content.replace("</tem:xml>","]]></tem:xml>")
+    content = content.replace("<ACORD xmlns=\"\">","<![CDATA[<ACORD>");
+    content = content.replace("</ACORD>","</ACORD>]]>")
     request({
       url: config.ISO,
       method:'POST',
@@ -24,7 +24,11 @@ module.exports = function(app){
     })
     .then((resp,data) => {
         logger.info("Message posted and replied")
-        res.send(resp);
+        console.log(resp);
+        var response_content = resp.replace(/&lt;/g,"<")
+        console.log(response_content)
+        response_content = response_content.replace(/&gt;/g,">")
+        res.send(response_content);
     })
     .catch((err) => {
       logger.error(err.error);
