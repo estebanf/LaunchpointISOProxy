@@ -13,7 +13,7 @@ module.exports = function(app){
     // logger.debug(content);
     var msg = "<iso:Receive_ISO_ResponseRequest xmlns:iso=\"http://bpms.everteam.com/Processes/Core/ProcessISOResponse/ISO_Response_Manager\" xmlns:laun=\"http://www.example.org/Launchpoint\"><laun:content>" + content + "</laun:content></iso:Receive_ISO_ResponseRequest>";
     request({
-      url: config.bpms,
+      url: config.bpms + '/ode/processes/LaunchPointProcess_Processes_Core_ProcessISOResponse_ISO_Response_Manager_ISO',
       method:'POST',
       headers:{
         'Content-Type':'application/xml'
